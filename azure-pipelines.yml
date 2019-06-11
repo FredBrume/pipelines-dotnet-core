@@ -20,7 +20,6 @@ steps:
   displayName: Build
   inputs:
     command: build
-    projects: '**/*.csproj'
     arguments: '--configuration Release'
 
 - task: DotNetCoreCLI@2
